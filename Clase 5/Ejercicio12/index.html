@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="formularioCajas">
+        <h1>Personalice su Caja</h1>
+        <form class="formulario">
+
+            <label for="centigrados">Nombre cliente:</label><br>
+            <input type="text" id="inputUno" name="nombre"><br>
+
+            <label for="cajas">Material de la caja:</label>
+            <select name="tipoCaja" id="cajas">
+            <option value="Madera">Madera</option>
+            <option value="Carton">Carton</option>
+            <option value="Plastico">Plastico</option>
+            </select>
+
+            <p>Seleccione tamaño de caja:</p>
+            <input type="radio" id="Diminuta" name="tamCaja" value="Diminuta">
+            <label for="Diminuta">Diminuta</label><br>
+            <input type="radio" id="Mediano" name="tamCaja" value="Mediano">
+            <label for="Mediano">Mediano</label><br>
+            <input type="radio" id="Grande" name="tamCaja" value="Grande">
+            <label for="Grande">Grande</label><br>
+
+            <div id="comentario">
+                <label for="comentarioUsuario">Comentarios:</label>
+                <textarea id="comentarioUsuario" name="comentario" rows="5" cols="33"></textarea>
+            </div>
+
+        </form>
+        <button id="btnEnviar">Enviar</button>
+        <div id="resultado">
+            <label for="resultadoPedido">Usted ha pedido:</label><br>
+            <input type="text" id="inputDos" name="resultadoPedido" readonly>
+        </div>
+    </div>
+    <script src="main.js" type="text/javascript"></script>
+</body>
+</html>

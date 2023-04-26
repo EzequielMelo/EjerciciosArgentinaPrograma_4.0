@@ -1,0 +1,66 @@
+body
+{  display: flex;
+    width: 60%;
+    margin-top: 20px;
+    margin-left:auto;
+    margin-right:auto;
+    border: 3px solid black;
+}
+
+.formularioCajas
+{
+    display: block;
+    width: 50%;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.formulario
+{
+    display: block;
+    width: 50%;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+#inputUno
+{
+    margin-bottom: 15px;
+}
+
+#inputDos
+{
+    margin-bottom: 15px;
+    width: 100%;
+}
+
+button
+{
+    display: block;
+    margin-left:auto;
+    margin-right:auto;
+    margin-bottom: 15px;;
+    width: auto;
+}
+
+h1
+{
+    display: block;
+    font-size: 1.2em;
+    width: 50%;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+select
+{
+    display: block;
+    margin-bottom: 15px;
+}
+
+#comentario
+{
+    margin-top: 15px;
+}

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="numeroAlAzar">
+        <h1>Intente adivinar el numero ingresado</h1>
+        <form class="formInforme">
+            <label for="numero">Ingrese el numero a adivinar:</label><br>
+            <input type="text" id="inputUno" name="numero"><br>
+            <button id="btnCargarNumero">Cargar</button>
+            <label for="adivinar">Ingrese un numero para saber si es el correcto:</label><br>
+            <input type="text" id="inputDos" name="adivinar">
+            <label for="respuesta">Respuesta:</label><br>
+            <input type="text" id="inputTres" name="respuesta" readonly>
+        </form>
+        <button id="btnMostrarAcierto">Acerte?</button>
+    </div>
+    <script src="main.js" type="text/javascript"></script>
+</body>
+</html>

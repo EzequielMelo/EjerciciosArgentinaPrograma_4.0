@@ -1,0 +1,64 @@
+body
+{  display: flex;
+    width: 60%;
+    margin-top: 20px;
+    margin-left:auto;
+    margin-right:auto;
+    border: 3px solid black;
+}
+
+.dolaresAPesos
+{
+    display: block;
+    width: 50%;
+    margin-left:auto;
+    margin-right:auto;
+    border-left: 1.5px solid black;
+}
+
+.pesosADolares
+{
+    display: block;
+    width: 50%;
+    margin-left:auto;
+    margin-right:auto;
+    border-right: 1.5px solid black;
+}
+
+.formCalculo
+{
+    display: block;
+    width: 50%;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+#inputUno
+{
+    margin-bottom: 15px;
+}
+
+#inputTres
+{
+    margin-bottom: 15px;
+}
+
+button
+{
+    display: block;
+    margin-left:auto;
+    margin-right:auto;
+    margin-bottom: 15px;;
+    width: auto;
+}
+
+h1
+{
+    display: flex;
+    font-size: 1.2em;
+    width: 70%;
+    margin-left:auto;
+    margin-right:auto;
+}

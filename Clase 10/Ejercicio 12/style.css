@@ -1,0 +1,49 @@
+body
+{  display: flex;
+    width: 60%;
+    margin-top: 20px;
+    margin-left:auto;
+    margin-right:auto;
+    border: 3px solid black;
+}
+
+.listaDeNombres
+{
+    display: block;
+    width: 50%;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.formCalculo
+{
+    display: block;
+    width: 50%;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+#inputUno
+{
+    margin-bottom: 15px;
+}
+
+button
+{
+    display: block;
+    margin-left:auto;
+    margin-right:auto;
+    margin-bottom: 15px;;
+    width: auto;
+}
+
+h1
+{
+    display: flex;
+    font-size: 1.2em;
+    width: 100%;
+    margin-left:auto;
+    margin-right:auto;
+}

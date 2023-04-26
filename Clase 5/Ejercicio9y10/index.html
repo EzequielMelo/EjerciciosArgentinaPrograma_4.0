@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="pesosADolares">
+        <h1>Calculadora Pesos a Dolares</h1>
+        <form class="formCalculo">
+            <label for="pesos">Pesos: ARS</label><br>
+            <input type="text" id="inputUno" name="pesos"><br>
+            <label for="dolares">Dolares: USD</label><br>
+            <input type="text" id="inputDos" name="dolares" readonly>
+        </form>
+        <button id="btnCalcularDolares">Calcular</button>
+    </div>
+
+    <div class="dolaresAPesos">
+        <h1>Calculadora Dolares a Pesos</h1>
+        <form class="formCalculo">
+            <label for="dolares">Dolares: USD</label><br>
+            <input type="text" id="inputTres" name="dolares"><br>
+            <label for="pesos">Pesos: ARS</label><br>
+            <input type="text" id="inputCuatro" name="pesos" readonly>
+        </form>
+        <button id="btnCalcularPesos">Calcular</button>
+    </div>
+
+    <script src="main.js" type="text/javascript"></script>
+</body>
+</html>

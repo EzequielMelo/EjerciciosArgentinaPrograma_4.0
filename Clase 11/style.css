@@ -1,0 +1,149 @@
+#bannerPrincipal
+{
+    display: flex;
+    background-image: url(images/banner-principal.jpg);
+    height: 750px;
+    background-position: center;
+    background-size: cover;
+}
+
+#quienesSomos
+{
+    display: flex;
+    padding-top: 15px;
+    background-color:  #E8E8E8;
+}
+
+#buscasAyuda
+{
+    display: flex;
+    padding-top: 20px;
+    background-color:  white;;
+}
+
+#sumate
+{
+    display: flex;
+    padding-top: 20px;
+    background-color: #E21982;
+}
+
+#preguntasFrecuentes
+{
+    display: flex;
+    padding-top: 20px;
+    background-color:  #E8E8E8;
+    padding-bottom: 30px;
+}
+
+#bannerSecundario
+{
+    display: flex;
+    background-image: url(images/banner-secundario.jpg);
+    height: 500px;
+    background-position: center;
+    background-size: cover;
+}
+
+#footer
+{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    background-color: #22193F;
+}
+
+.tituloBannerPrincipal
+{
+    color: white;
+    font-size: 40px;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 900;
+}
+
+.bajadaBannerPrincipal
+{
+    color: white;
+    font-size: 22px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.preTitulo
+{
+    color: #E21982;;
+    font-size: 12px;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 200;
+}
+
+.tituloSecundario
+{
+    color: #22193F;
+    font-size: 28px;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 900;
+}
+
+.textoGeneral
+{
+    color: #22193F;
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.enumeracion
+{
+    color: #E21982;
+    font-size: 28px;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 900;
+}
+
+.brindasAyuda
+{
+    color: white;
+    font-size: 23px;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 900;
+}
+
+.btnIngreso
+{
+    background-color: #E21982;
+    color: white;
+    font-size: 16px;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 600;
+}
+
+.dropdown-toggle-split
+{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: #22193F;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 600;
+}
+
+.socialMedia
+{
+    width: 30px;
+    height: 30px;
+    background-color: white;
+    border-radius: 50%;
+    color: #E21982;
+}
+
+.textoFooter
+{
+    color: white;
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.navBarTexto
+{
+    font-size: 16px;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 600;
+}
